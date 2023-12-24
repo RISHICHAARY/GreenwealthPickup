@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "slidebutton",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/no-comment/SlideButton",
+      "state" : {
+        "branch" : "main",
+        "revision" : "82e907608fbd42cc23232bdb0c1720c288dbca2f"
+      }
+    },
+    {
+      "identity" : "triggerslider",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DominikButz/TriggerSlider.git",
+      "state" : {
+        "revision" : "f13f33015b8bb7b9491c919c454fbcc748a60427",
+        "version" : "0.5.0"
+      }
+    }
+  ],
+  "version" : 2
+}

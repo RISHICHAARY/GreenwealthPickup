@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F758CA22B37FC9500826604 /* SlideButton in Frameworks */ = {isa = PBXBuildFile; productRef = 7F758CA12B37FC9500826604 /* SlideButton */; };
+		7F758CA52B37FDC900826604 /* TriggerSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 7F758CA42B37FDC900826604 /* TriggerSlider */; };
+		7F758CA72B38020600826604 /* OtpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F758CA62B38020600826604 /* OtpPage.swift */; };
+		7F758CA92B38025600826604 /* OtpModifierPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F758CA82B38025600826604 /* OtpModifierPage.swift */; };
+		7F821C182B37EBFB00EA67A1 /* GreenwealthPickupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C172B37EBFB00EA67A1 /* GreenwealthPickupApp.swift */; };
+		7F821C1A2B37EBFB00EA67A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C192B37EBFB00EA67A1 /* ContentView.swift */; };
+		7F821C1C2B37EBFC00EA67A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F821C1B2B37EBFC00EA67A1 /* Assets.xcassets */; };
+		7F821C1F2B37EBFC00EA67A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F821C1E2B37EBFC00EA67A1 /* Preview Assets.xcassets */; };
+		7F821C292B37EBFC00EA67A1 /* GreenwealthPickupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C282B37EBFC00EA67A1 /* GreenwealthPickupTests.swift */; };
+		7F821C332B37EBFC00EA67A1 /* GreenwealthPickupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C322B37EBFC00EA67A1 /* GreenwealthPickupUITests.swift */; };
+		7F821C352B37EBFC00EA67A1 /* GreenwealthPickupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C342B37EBFC00EA67A1 /* GreenwealthPickupUITestsLaunchTests.swift */; };
+		7F821C432B37F0F000EA67A1 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C422B37F0F000EA67A1 /* HomePage.swift */; };
+		7F821C452B37F10700EA67A1 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C442B37F10700EA67A1 /* ProfilePage.swift */; };
+		7F821C472B37F11200EA67A1 /* SplashPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C462B37F11200EA67A1 /* SplashPage.swift */; };
+		7F821C492B37F12900EA67A1 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C482B37F12900EA67A1 /* LoginPage.swift */; };
+		7F821C4B2B37F15F00EA67A1 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C4A2B37F15F00EA67A1 /* DetailsPage.swift */; };
+		7F821C4D2B37F17600EA67A1 /* ConfirmPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F821C4C2B37F17600EA67A1 /* ConfirmPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F821C252B37EBFC00EA67A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F821C0C2B37EBFB00EA67A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F821C132B37EBFB00EA67A1;
+			remoteInfo = GreenwealthPickup;
+		};
+		7F821C2F2B37EBFC00EA67A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F821C0C2B37EBFB00EA67A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F821C132B37EBFB00EA67A1;
+			remoteInfo = GreenwealthPickup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F758CA62B38020600826604 /* OtpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpPage.swift; sourceTree = "<group>"; };
+		7F758CA82B38025600826604 /* OtpModifierPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpModifierPage.swift; sourceTree = "<group>"; };
+		7F821C142B37EBFB00EA67A1 /* GreenwealthPickup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenwealthPickup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F821C172B37EBFB00EA67A1 /* GreenwealthPickupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenwealthPickupApp.swift; sourceTree = "<group>"; };
+		7F821C192B37EBFB00EA67A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F821C1B2B37EBFC00EA67A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F821C1E2B37EBFC00EA67A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F821C242B37EBFC00EA67A1 /* GreenwealthPickupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenwealthPickupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F821C282B37EBFC00EA67A1 /* GreenwealthPickupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenwealthPickupTests.swift; sourceTree = "<group>"; };
+		7F821C2E2B37EBFC00EA67A1 /* GreenwealthPickupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenwealthPickupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F821C322B37EBFC00EA67A1 /* GreenwealthPickupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenwealthPickupUITests.swift; sourceTree = "<group>"; };
+		7F821C342B37EBFC00EA67A1 /* GreenwealthPickupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenwealthPickupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F821C422B37F0F000EA67A1 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		7F821C442B37F10700EA67A1 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		7F821C462B37F11200EA67A1 /* SplashPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPage.swift; sourceTree = "<group>"; };
+		7F821C482B37F12900EA67A1 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		7F821C4A2B37F15F00EA67A1 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
+		7F821C4C2B37F17600EA67A1 /* ConfirmPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F821C112B37EBFB00EA67A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F758CA52B37FDC900826604 /* TriggerSlider in Frameworks */,
+				7F758CA22B37FC9500826604 /* SlideButton in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F821C212B37EBFC00EA67A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F821C2B2B37EBFC00EA67A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F821C0B2B37EBFB00EA67A1 = {
+			isa = PBXGroup;
+			children = (
+				7F821C162B37EBFB00EA67A1 /* GreenwealthPickup */,
+				7F821C272B37EBFC00EA67A1 /* GreenwealthPickupTests */,
+				7F821C312B37EBFC00EA67A1 /* GreenwealthPickupUITests */,
+				7F821C152B37EBFB00EA67A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F821C152B37EBFB00EA67A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F821C142B37EBFB00EA67A1 /* GreenwealthPickup.app */,
+				7F821C242B37EBFC00EA67A1 /* GreenwealthPickupTests.xctest */,
+				7F821C2E2B37EBFC00EA67A1 /* GreenwealthPickupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F821C162B37EBFB00EA67A1 /* GreenwealthPickup */ = {
+			isa = PBXGroup;
+			children = (
+				7F821C412B37ED8300EA67A1 /* UI */,
+				7F821C1B2B37EBFC00EA67A1 /* Assets.xcassets */,
+				7F821C1D2B37EBFC00EA67A1 /* Preview Content */,
+			);
+			path = GreenwealthPickup;
+			sourceTree = "<group>";
+		};
+		7F821C1D2B37EBFC00EA67A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F821C1E2B37EBFC00EA67A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F821C272B37EBFC00EA67A1 /* GreenwealthPickupTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F821C282B37EBFC00EA67A1 /* GreenwealthPickupTests.swift */,
+			);
+			path = GreenwealthPickupTests;
+			sourceTree = "<group>";
+		};
+		7F821C312B37EBFC00EA67A1 /* GreenwealthPickupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F821C322B37EBFC00EA67A1 /* GreenwealthPickupUITests.swift */,
+				7F821C342B37EBFC00EA67A1 /* GreenwealthPickupUITestsLaunchTests.swift */,
+			);
+			path = GreenwealthPickupUITests;
+			sourceTree = "<group>";
+		};
+		7F821C412B37ED8300EA67A1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7F821C192B37EBFB00EA67A1 /* ContentView.swift */,
+				7F821C172B37EBFB00EA67A1 /* GreenwealthPickupApp.swift */,
+				7F821C422B37F0F000EA67A1 /* HomePage.swift */,
+				7F821C442B37F10700EA67A1 /* ProfilePage.swift */,
+				7F821C462B37F11200EA67A1 /* SplashPage.swift */,
+				7F821C482B37F12900EA67A1 /* LoginPage.swift */,
+				7F821C4A2B37F15F00EA67A1 /* DetailsPage.swift */,
+				7F821C4C2B37F17600EA67A1 /* ConfirmPage.swift */,
+				7F758CA62B38020600826604 /* OtpPage.swift */,
+				7F758CA82B38025600826604 /* OtpModifierPage.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F821C132B37EBFB00EA67A1 /* GreenwealthPickup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F821C382B37EBFC00EA67A1 /* Build configuration list for PBXNativeTarget "GreenwealthPickup" */;
+			buildPhases = (
+				7F821C102B37EBFB00EA67A1 /* Sources */,
+				7F821C112B37EBFB00EA67A1 /* Frameworks */,
+				7F821C122B37EBFB00EA67A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenwealthPickup;
+			packageProductDependencies = (
+				7F758CA12B37FC9500826604 /* SlideButton */,
+				7F758CA42B37FDC900826604 /* TriggerSlider */,
+			);
+			productName = GreenwealthPickup;
+			productReference = 7F821C142B37EBFB00EA67A1 /* GreenwealthPickup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F821C232B37EBFC00EA67A1 /* GreenwealthPickupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F821C3B2B37EBFC00EA67A1 /* Build configuration list for PBXNativeTarget "GreenwealthPickupTests" */;
+			buildPhases = (
+				7F821C202B37EBFC00EA67A1 /* Sources */,
+				7F821C212B37EBFC00EA67A1 /* Frameworks */,
+				7F821C222B37EBFC00EA67A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F821C262B37EBFC00EA67A1 /* PBXTargetDependency */,
+			);
+			name = GreenwealthPickupTests;
+			productName = GreenwealthPickupTests;
+			productReference = 7F821C242B37EBFC00EA67A1 /* GreenwealthPickupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F821C2D2B37EBFC00EA67A1 /* GreenwealthPickupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F821C3E2B37EBFC00EA67A1 /* Build configuration list for PBXNativeTarget "GreenwealthPickupUITests" */;
+			buildPhases = (
+				7F821C2A2B37EBFC00EA67A1 /* Sources */,
+				7F821C2B2B37EBFC00EA67A1 /* Frameworks */,
+				7F821C2C2B37EBFC00EA67A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F821C302B37EBFC00EA67A1 /* PBXTargetDependency */,
+			);
+			name = GreenwealthPickupUITests;
+			productName = GreenwealthPickupUITests;
+			productReference = 7F821C2E2B37EBFC00EA67A1 /* GreenwealthPickupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F821C0C2B37EBFB00EA67A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7F821C132B37EBFB00EA67A1 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					7F821C232B37EBFC00EA67A1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7F821C132B37EBFB00EA67A1;
+					};
+					7F821C2D2B37EBFC00EA67A1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7F821C132B37EBFB00EA67A1;
+					};
+				};
+			};
+			buildConfigurationList = 7F821C0F2B37EBFB00EA67A1 /* Build configuration list for PBXProject "GreenwealthPickup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F821C0B2B37EBFB00EA67A1;
+			packageReferences = (
+				7F758CA02B37FC9500826604 /* XCRemoteSwiftPackageReference "SlideButton" */,
+				7F758CA32B37FDC900826604 /* XCRemoteSwiftPackageReference "TriggerSlider" */,
+			);
+			productRefGroup = 7F821C152B37EBFB00EA67A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F821C132B37EBFB00EA67A1 /* GreenwealthPickup */,
+				7F821C232B37EBFC00EA67A1 /* GreenwealthPickupTests */,
+				7F821C2D2B37EBFC00EA67A1 /* GreenwealthPickupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F821C122B37EBFB00EA67A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F821C1F2B37EBFC00EA67A1 /* Preview Assets.xcassets in Resources */,
+				7F821C1C2B37EBFC00EA67A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F821C222B37EBFC00EA67A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F821C2C2B37EBFC00EA67A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F821C102B37EBFB00EA67A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F821C1A2B37EBFB00EA67A1 /* ContentView.swift in Sources */,
+				7F758CA92B38025600826604 /* OtpModifierPage.swift in Sources */,
+				7F821C432B37F0F000EA67A1 /* HomePage.swift in Sources */,
+				7F821C472B37F11200EA67A1 /* SplashPage.swift in Sources */,
+				7F821C452B37F10700EA67A1 /* ProfilePage.swift in Sources */,
+				7F758CA72B38020600826604 /* OtpPage.swift in Sources */,
+				7F821C4B2B37F15F00EA67A1 /* DetailsPage.swift in Sources */,
+				7F821C492B37F12900EA67A1 /* LoginPage.swift in Sources */,
+				7F821C182B37EBFB00EA67A1 /* GreenwealthPickupApp.swift in Sources */,
+				7F821C4D2B37F17600EA67A1 /* ConfirmPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F821C202B37EBFC00EA67A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F821C292B37EBFC00EA67A1 /* GreenwealthPickupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F821C2A2B37EBFC00EA67A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F821C332B37EBFC00EA67A1 /* GreenwealthPickupUITests.swift in Sources */,
+				7F821C352B37EBFC00EA67A1 /* GreenwealthPickupUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F821C262B37EBFC00EA67A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F821C132B37EBFB00EA67A1 /* GreenwealthPickup */;
+			targetProxy = 7F821C252B37EBFC00EA67A1 /* PBXContainerItemProxy */;
+		};
+		7F821C302B37EBFC00EA67A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F821C132B37EBFB00EA67A1 /* GreenwealthPickup */;
+			targetProxy = 7F821C2F2B37EBFC00EA67A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F821C362B37EBFC00EA67A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F821C372B37EBFC00EA67A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F821C392B37EBFC00EA67A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenwealthPickup/Preview Content\"";
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iRule.GreenwealthPickup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F821C3A2B37EBFC00EA67A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenwealthPickup/Preview Content\"";
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iRule.GreenwealthPickup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F821C3C2B37EBFC00EA67A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iRule.GreenwealthPickupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenwealthPickup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenwealthPickup";
+			};
+			name = Debug;
+		};
+		7F821C3D2B37EBFC00EA67A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iRule.GreenwealthPickupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenwealthPickup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenwealthPickup";
+			};
+			name = Release;
+		};
+		7F821C3F2B37EBFC00EA67A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iRule.GreenwealthPickupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenwealthPickup;
+			};
+			name = Debug;
+		};
+		7F821C402B37EBFC00EA67A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iRule.GreenwealthPickupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenwealthPickup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F821C0F2B37EBFB00EA67A1 /* Build configuration list for PBXProject "GreenwealthPickup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F821C362B37EBFC00EA67A1 /* Debug */,
+				7F821C372B37EBFC00EA67A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F821C382B37EBFC00EA67A1 /* Build configuration list for PBXNativeTarget "GreenwealthPickup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F821C392B37EBFC00EA67A1 /* Debug */,
+				7F821C3A2B37EBFC00EA67A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F821C3B2B37EBFC00EA67A1 /* Build configuration list for PBXNativeTarget "GreenwealthPickupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F821C3C2B37EBFC00EA67A1 /* Debug */,
+				7F821C3D2B37EBFC00EA67A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F821C3E2B37EBFC00EA67A1 /* Build configuration list for PBXNativeTarget "GreenwealthPickupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F821C3F2B37EBFC00EA67A1 /* Debug */,
+				7F821C402B37EBFC00EA67A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F758CA02B37FC9500826604 /* XCRemoteSwiftPackageReference "SlideButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/no-comment/SlideButton";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		7F758CA32B37FDC900826604 /* XCRemoteSwiftPackageReference "TriggerSlider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DominikButz/TriggerSlider.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F758CA12B37FC9500826604 /* SlideButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F758CA02B37FC9500826604 /* XCRemoteSwiftPackageReference "SlideButton" */;
+			productName = SlideButton;
+		};
+		7F758CA42B37FDC900826604 /* TriggerSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F758CA32B37FDC900826604 /* XCRemoteSwiftPackageReference "TriggerSlider" */;
+			productName = TriggerSlider;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7F821C0C2B37EBFB00EA67A1 /* Project object */;
+}
